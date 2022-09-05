@@ -58,15 +58,16 @@
     }
   }
 
-  &--dark {
-    color: var(--color-white);
-    border-color: var(--color-dark);
-    background-color: var(--color-dark);
+        &--dark {
+        color: var(--color-white);
+        border-color: var(--color-dark);
+        background-color: var(--color-dark);
 
-    &:hover,
-    &:focus,
-    &:focus-within,
-    &:active {
-      color: var(--color-white);
+        &:hover,
+        &:focus,
+        &:focus-within,
+        &:active {
+        color: var(--color-white);
+        }
     }
-  }
+}
